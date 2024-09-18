@@ -1,0 +1,19 @@
+{
+  "name": "LUCAS-RIBEIRO-DE-MATTOS",
+  "version": "1.0.0",
+  "main": "dist/problema5/server.js",
+  "scripts": {
+    "start:problema5": "tsc && node dist/problema5/server.js",
+    "dev:problema5": "nodemon src/problema5/server.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "mongoose": "^8.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
